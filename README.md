@@ -1,0 +1,4 @@
+estoria
+=======
+
+An eventsourcing mapper
