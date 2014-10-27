@@ -1,0 +1,18 @@
+{
+    "name": "nortuni/estoria",
+    "description": "An eventsourcing mapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stijn Vannieuwenhuyse",
+            "email": "stijn@vannieuwenhuyse.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nortuni\\Estoria": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
