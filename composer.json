@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nortuni\\Estoria": "src/"
+            "Nortuni\\Estoria\\": "src/"
         }
     },
     "minimum-stability": "dev",
