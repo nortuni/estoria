@@ -2,7 +2,7 @@
 
 namespace Nortuni\Estoria;
 
-final class CommittableEvent
+final class CommittableEvent implements \JsonSerializable
 {
     /**
      * @var string
@@ -62,5 +62,15 @@ final class CommittableEvent
     public function getMetadata()
     {
         return $this->metadata;
+    }
+
+    function jsonSerialize()
+    {
+        return [
+            'eventId' => $this->eventId,
+            'eventType' => $this->eventType,
+            'data' => $this->data,
+            'metadata' => $this->metadata,
+        ];
     }
 }
