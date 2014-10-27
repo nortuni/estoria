@@ -2,10 +2,8 @@
 
 namespace Nortuni\Estoria;
 
-use Iterator;
-
-interface Commit extends Iterator
+interface Commit
 {
-    //public function equals(Commit $other);
+    public function equals(Commit $other);
     public function getEvents();
 }
